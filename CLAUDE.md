@@ -85,3 +85,15 @@ When the VFS changes, `PreviewFrame` calls `createImportMap(files)`:
 ### Testing
 
 Tests use Vitest + jsdom + React Testing Library. Test files live alongside source in `__tests__/` subdirectories.
+
+## Code Style
+
+use comments sparingly. only comment complex code
+
+## Testing
+
+Vitest config is in `vitest.config.mts`.
+
+## Database
+
+The database schema is defined in the `prisma/schema.prisma` file. Reference it anytime you need to understand the structure of data stored in the database.
