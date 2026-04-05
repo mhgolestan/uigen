@@ -53,17 +53,17 @@ jobs:
             of tools to launch a browser and interact with the app.
           
           claude_args: >-
-            --mcp-config: 
+            --mcp-config
               {
-                "mcpServers": 
+                "mcpServers":
                 {
-                  "playwright": 
+                  "playwright":
                   {
-                    "command": "прх",
+                    "command": "npx",
                     "args": [
                       "@playwright/mcp@latest",
                       "--allowed-origins",
-                      "localhost: 3000;cdn.tailwindcss.com;esm.sh"
+                      "localhost:3000;cdn.tailwindcss.com;esm.sh"
                     ]
                   }
                 }
